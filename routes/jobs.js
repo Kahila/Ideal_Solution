@@ -72,6 +72,9 @@ router.get('/', function(req, res, next) {
                     res.send(JSON.stringify({ "status": 200, "error": null, "response": result }));
             });
         }
+    }
+    if (!req.query.qry) {
+        res.send("waiting for request");
     } else {
         res.send("invalid request");
     }
