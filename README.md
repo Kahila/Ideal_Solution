@@ -25,7 +25,9 @@ The "job_table" contains information regarding the job being applied for and the
         password: "your sql server password",
         port: "port to sql server"`
 - go back to the parent directory and type `node database/setup.js` this will create the database, tables and populate the tables within the database. The everything you will recieve a console log like:
+
 ![output](https://github.com/Kahila/Ideal_Solution/blob/main/screen_shots/setup.PNG)
+
 - Once the database has been set up run nodemon to start the node server.
 - go to any browser of your choice and go to `localhost:3000/api/v1/jobs`.
 
