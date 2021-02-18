@@ -1,0 +1,289 @@
+{
+	"info": {
+		"_postman_id": "a0f4abe9-a1c7-4046-9178-66b8ddbd63c6",
+		"name": "ideal_solution",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "View Jobs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/jobs?qry=read&table=jobs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"jobs"
+					],
+					"query": [
+						{
+							"key": "qry",
+							"value": "read"
+						},
+						{
+							"key": "table",
+							"value": "jobs"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "View Applicants",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/jobs?qry=read&table=applicants",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"jobs"
+					],
+					"query": [
+						{
+							"key": "qry",
+							"value": "read"
+						},
+						{
+							"key": "table",
+							"value": "applicants"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "View Applied",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/jobs?qry=read&table=applied",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"jobs"
+					],
+					"query": [
+						{
+							"key": "qry",
+							"value": "read"
+						},
+						{
+							"key": "table",
+							"value": "applied"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Apply To Job",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/jobs?qry=apply&jobID=1&applicantID=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"jobs"
+					],
+					"query": [
+						{
+							"key": "qry",
+							"value": "apply"
+						},
+						{
+							"key": "jobID",
+							"value": "1"
+						},
+						{
+							"key": "applicantID",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Application",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/jobs?qry=delete&jobID=1&applicantID=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"jobs"
+					],
+					"query": [
+						{
+							"key": "qry",
+							"value": "delete"
+						},
+						{
+							"key": "jobID",
+							"value": "1"
+						},
+						{
+							"key": "applicantID",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Email",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/jobs?qry=update&id=1&email=Adonis&update=email",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"jobs"
+					],
+					"query": [
+						{
+							"key": "qry",
+							"value": "update"
+						},
+						{
+							"key": "id",
+							"value": "1"
+						},
+						{
+							"key": "email",
+							"value": "Adonis"
+						},
+						{
+							"key": "update",
+							"value": "email"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/jobs?qry=update&id=1&name=Adonis&update=name",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"jobs"
+					],
+					"query": [
+						{
+							"key": "qry",
+							"value": "update"
+						},
+						{
+							"key": "id",
+							"value": "1"
+						},
+						{
+							"key": "name",
+							"value": "Adonis"
+						},
+						{
+							"key": "update",
+							"value": "name"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Surname",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/jobs?qry=update&id=1&surname=Kalombo&update=surname",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"jobs"
+					],
+					"query": [
+						{
+							"key": "qry",
+							"value": "update"
+						},
+						{
+							"key": "id",
+							"value": "1"
+						},
+						{
+							"key": "surname",
+							"value": "Kalombo"
+						},
+						{
+							"key": "update",
+							"value": "surname"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
