@@ -48,5 +48,10 @@ The "job_table" contains information regarding the job being applied for and the
     - eg : `http://localhost:3000/api/v1/jobs?qry=update&id=1&surname=Kalombo&update=surname`
 - all output will be prompted on the web page, or you can use postman to send requests
 
+### Postman
 
+- The Postman collection file is found in the documentation folder
+- collection looks like :
+
+![postman Collection](https://github.com/Kahila/Ideal_Solution/blob/main/screen_shots/postman.PNG)
 
