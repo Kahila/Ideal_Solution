@@ -37,7 +37,7 @@ The "job_table" contains information regarding the job being applied for and the
 - View applicants : `http://localhost:3000/api/v1/jobs?qry=read&table=applicants`
 - View applied : `http://localhost:3000/api/v1/jobs?qry=read&table=applied`
 - Apply for job : `http://localhost:3000/api/v1/jobs?qry=apply&jobID="the id of the Job being applied to"&applicantID="the id of the applicant"`
-    - eg : 'http://localhost:3000/api/v1/jobs?qry=apply&jobID=1&applicantID=1'
+    - eg : `http://localhost:3000/api/v1/jobs?qry=apply&jobID=1&applicantID=1`
 - Delete application : `http://localhost:3000/api/v1/jobs?qry=delete&jobID=1&applicantID=1`
     - eg : `http://localhost:3000/api/v1/jobs?qry=delete&jobID="the id of the Job applied to"&applicantID="the id of the applicant"`
 - Update email : `http://localhost:3000/api/v1/jobs?qry=update&id="applicant id to update"&email="email address"&update=email`
