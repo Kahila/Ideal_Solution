@@ -33,19 +33,19 @@ The "job_table" contains information regarding the job being applied for and the
 
 ### Usage
 
-View jobs - `http://localhost:3000/api/v1/jobs?qry=read&table=jobs`
-View applicants - `http://localhost:3000/api/v1/jobs?qry=read&table=applicants`
-View applied - `http://localhost:3000/api/v1/jobs?qry=read&table=applied`
-Apply for job - `http://localhost:3000/api/v1/jobs?qry=apply&jobID="the id of the Job being applied to"&applicantID="the id of the applicant"`
-    eg - 'http://localhost:3000/api/v1/jobs?qry=apply&jobID=1&applicantID=1'
-Delete application - `http://localhost:3000/api/v1/jobs?qry=delete&jobID=1&applicantID=1`
-    eg - `http://localhost:3000/api/v1/jobs?qry=delete&jobID="the id of the Job applied to"&applicantID="the id of the applicant"`
-Update email - `http://localhost:3000/api/v1/jobs?qry=update&id="applicant id to update"&email="email address"&update=email`
-    eg - `http://localhost:3000/api/v1/jobs?qry=update&id=1&email=Adonis&update=email`
-Update name - `http://localhost:3000/api/v1/jobs?qry=update&id="applicant id to update"&name="The new name of the applicant"&update=name`
-    eg - `http://localhost:3000/api/v1/jobs?qry=update&id=1&name=Adonis&update=name`
-update surname - `http://localhost:3000/api/v1/jobs?qry=update&id="applicant id to update"&surname="new surname to be added"&update=surname`
-    eg - `http://localhost:3000/api/v1/jobs?qry=update&id=1&surname=Kalombo&update=surname`
+- View jobs : `http://localhost:3000/api/v1/jobs?qry=read&table=jobs`
+- View applicants : `http://localhost:3000/api/v1/jobs?qry=read&table=applicants`
+- View applied : `http://localhost:3000/api/v1/jobs?qry=read&table=applied`
+- Apply for job : `http://localhost:3000/api/v1/jobs?qry=apply&jobID="the id of the Job being applied to"&applicantID="the id of the applicant"`
+    - eg : 'http://localhost:3000/api/v1/jobs?qry=apply&jobID=1&applicantID=1'
+- Delete application : `http://localhost:3000/api/v1/jobs?qry=delete&jobID=1&applicantID=1`
+    - eg : `http://localhost:3000/api/v1/jobs?qry=delete&jobID="the id of the Job applied to"&applicantID="the id of the applicant"`
+- Update email : `http://localhost:3000/api/v1/jobs?qry=update&id="applicant id to update"&email="email address"&update=email`
+    - eg : `http://localhost:3000/api/v1/jobs?qry=update&id=1&email=Adonis&update=email`
+- Update name : `http://localhost:3000/api/v1/jobs?qry=update&id="applicant id to update"&name="The new name of the applicant"&update=name`
+    - eg : `http://localhost:3000/api/v1/jobs?qry=update&id=1&name=Adonis&update=name`
+- update surname : `http://localhost:3000/api/v1/jobs?qry=update&id="applicant id to update"&surname="new surname to be added"&update=surname`
+    - eg : `http://localhost:3000/api/v1/jobs?qry=update&id=1&surname=Kalombo&update=surname`
 - all output will be prompted on the web page, or you can use postman to send requests
 
 
